@@ -1,125 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Srinivas P | QA Automation Engineer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Srinivas P | QA Automation Engineer</title>
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: #0f172a;
-      color: white;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #0f172a;
+  color: white;
+}
 
-    header {
-      text-align: center;
-      padding: 60px 20px;
-    }
+/* HEADER */
+header {
+  text-align: center;
+  padding: 60px 20px;
+}
 
-    header h1 {
-      font-size: 40px;
-    }
+header img {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 25px #38bdf8;
+  margin-bottom: 20px;
+}
 
-    header p {
-      color: #94a3b8;
-    }
+h1 {
+  font-size: 42px;
+}
 
-    .section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
+.subtitle {
+  color: #94a3b8;
+}
 
-    h2 {
-      color: #38bdf8;
-    }
+/* SECTION */
+.section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
 
-    .card {
-      background: #1e293b;
-      padding: 20px;
-      margin: 15px 0;
-      border-radius: 10px;
-      transition: 0.3s;
-    }
+h2 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
 
-    .card:hover {
-      transform: scale(1.03);
-    }
+/* CARDS */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  transition: 0.3s;
+}
 
-    a {
-      color: #38bdf8;
-      text-decoration: none;
-    }
+.card:hover {
+  transform: translateY(-5px);
+}
 
-    .contact {
-      text-align: center;
-    }
+/* SKILLS */
+.skills span {
+  display: inline-block;
+  background: #38bdf8;
+  color: black;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 14px;
+}
 
-    .btn {
-      display: inline-block;
-      margin: 10px;
-      padding: 10px 20px;
-      background: #38bdf8;
-      color: black;
-      border-radius: 5px;
-    }
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-    footer {
-      text-align: center;
-      padding: 20px;
-      color: #94a3b8;
-    }
-  </style>
+/* CONTACT */
+.contact {
+  text-align: center;
+}
+
+/* TIMELINE */
+.timeline {
+  border-left: 2px solid #38bdf8;
+  padding-left: 20px;
+}
+
+.timeline div {
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #94a3b8;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-  <img src="profile.jpg" alt="Profile" width="150" style="border-radius:50%;">
-  <h1>Hi, I'm Srinivas P 👋</h1>
-  <p>QA Automation Engineer | Selenium | Playwright | Java</p>
+<img src="IMG_1234.jpg" alt="Profile">
+<h1>Srinivas P</h1>
+<p class="subtitle">QA Automation Engineer | 3 Years Experience</p>
 </header>
 
 <section class="section">
-  <h2>About Me</h2>
-  <p>I am a passionate QA Automation Engineer skilled in Selenium and Playwright. I build automation frameworks and ensure software quality.</p>
+<h2>Objective</h2>
+<p>
+QA Engineer with 3 years of experience in UI Automation, API automation, security testing and manual testing. 
+Specialized in Selenium, Java, Cucumber, and Agile methodologies. Passionate about delivering high-quality software.
+</p>
 </section>
 
 <section class="section">
-  <h2>Projects</h2>
+<h2>Skills</h2>
+<div class="skills">
+<span>Selenium WebDriver</span>
+<span>Java</span>
+<span>Playwright</span>
+<span>TestNG</span>
+<span>Cucumber BDD</span>
+<span>Postman</span>
+<span>API Testing</span>
+<span>JIRA</span>
+<span>OWASP ZAP</span>
+<span>SQL</span>
+<span>Maven</span>
+<span>Git</span>
+<span>Jenkins</span>
+</div>
+</section>
 
-  <div class="card">
-    <h3>Login Automation</h3>
-    <p>Automated login functionality using Selenium.</p>
-    <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
-  </div>
+<section class="section">
+<h2>Experience</h2>
+<div class="timeline">
+<div>
+<h3>Software Test Engineer</h3>
+<p>Techbeez Software Technologies Pvt Ltd (March 2024 – Present)</p>
+<p>Working on automation frameworks, API testing, and CI/CD pipelines.</p>
+</div>
+</div>
+</section>
 
-  <div class="card">
-    <h3>Playwright Framework</h3>
-    <p>End-to-end testing using Playwright.</p>
-    <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
-  </div>
+<section class="section">
+<h2>Projects</h2>
 
+<div class="card">
+<h3>Virtuo Matrix</h3>
+<p>CRM system enabling customer management, analytics, and business growth.</p>
+<p><b>Skills:</b> UI Automation, Security Testing, Manual Testing</p>
+</div>
+
+<div class="card">
+<h3>Fund Nexus</h3>
+<p>Banking solution for lending & leasing with high security and scalability.</p>
+<p><b>Skills:</b> UI Automation, API Testing, Security Testing</p>
+</div>
+
+</section>
+
+<section class="section">
+<h2>Responsibilities</h2>
+<div class="card">
+<ul>
+<li>Developed Selenium automation scripts</li>
+<li>API testing using Postman</li>
+<li>Security testing using OWASP ZAP</li>
+<li>Worked with Cucumber, TestNG, POM frameworks</li>
+<li>Performed Regression, Smoke, Functional testing</li>
+<li>Defect tracking using JIRA</li>
+<li>SQL validation for backend testing</li>
+<li>Worked in Agile Scrum environment</li>
+</ul>
+</div>
 </section>
 
 <section class="section contact">
-  <h2>Contact</h2>
+<h2>Contact</h2>
+<p>📧 srinivas.p0031@gmail.com</p>
+<p>📱 +91 9164131404</p>
 
-  <p>📧 Email: srinivas.p031@email.com</p>
-  <p>📱 Phone: +91 9164131404</p>
-
-  <a class="btn" href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
-  <a class="btn" href="https://github.com/yourusername" target="_blank">GitHub</a>
-
+<a class="btn" href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">LinkedIn</a>
+<a class="btn" href="https://github.com/YOUR-GITHUB" target="_blank">GitHub</a>
+<a class="btn" href="resume.pdf" download>Download Resume</a>
 </section>
 
 <footer>
-  <p>© 2026 Srinivas P</p>
+<p>© 2026 Srinivas P</p>
 </footer>
 
 </body>
